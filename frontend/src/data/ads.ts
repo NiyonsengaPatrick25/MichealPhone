@@ -4,7 +4,7 @@ export const announcements: string[] = [
   "🔥 Flash Sale — Up to 25% OFF flagship smartphones today only!",
   "🚚 Free delivery in Kigali on orders above RWF 100,000",
   "💳 Pay with MoMo, Card or Cash on Delivery",
-  "📱 Order via WhatsApp — fast & easy: +250 788 123 456",
+  "📱 Order via WhatsApp — fast & easy: +250 791 602 044 ",
 ];
 
 export const heroAds: Advertisement[] = [
