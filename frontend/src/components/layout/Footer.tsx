@@ -75,7 +75,7 @@ export default function Footer() {
             <h3 className="text-sm font-bold uppercase tracking-wider text-slate-900 dark:text-white">Contact</h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-500 dark:text-slate-400">
               <li className="flex gap-2"><span aria-hidden="true">📍</span> KN 4 Ave, Kigali City Tower, Kigali, Rwanda</li>
-              <li className="flex gap-2"><span aria-hidden="true">📞</span> <a href="tel:+250788123456" className="hover:text-brand-600">+250 788 123 456</a></li>
+              <li className="flex gap-2"><span aria-hidden="true">📞</span> <a href="tel:+250791602044" className="hover:text-brand-600">+250 791 602 044</a></li>
               <li className="flex gap-2"><span aria-hidden="true">✉️</span> <a href="mailto:hello@michealphone.rw" className="hover:text-brand-600">hello@michealphone.rw</a></li>
               <li className="flex gap-2"><span aria-hidden="true">🕘</span> Mon – Sat: 8:00 AM – 8:00 PM</li>
             </ul>
