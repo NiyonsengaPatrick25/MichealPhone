@@ -58,10 +58,11 @@ export interface Advertisement {
   title: string;
   subtitle: string;
   cta: string;
-  link: string;
+  link?: string;
   image?: string;
   gradient: string;
   badge?: string;
+  status?: "Active" | "Inactive";
 }
 
 export interface Testimonial {

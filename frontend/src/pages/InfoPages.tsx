@@ -92,10 +92,10 @@ export function Contact() {
       <div className="mt-10 grid gap-8 lg:grid-cols-5">
         <div className="space-y-4 lg:col-span-2">
           {[
-            ["📍", "Visit Us", "KN 4 Ave, Kigali City Tower, Kigali, Rwanda"],
-            ["📞", "Call Us", "+250 788 123 456"],
-            ["✉️", "Email Us", "hello@michealphone.rw"],
-            ["💬", "WhatsApp", "+250 788 123 456 — fastest response"],
+            ["📍", "Visit Us", "KN 4 Ave, Makuza Peace Plaza, Kigali, Rwanda"],
+            ["📞", "Call Us", "+250 784 106 107"],
+            ["✉️", "Email Us", "michealdamon7@gmail.com"],
+            ["💬", "WhatsApp", "+250 784 106 107 — fastest response"],
             ["🕘", "Hours", "Mon – Sat: 8:00 AM – 8:00 PM"],
           ].map(([e, t, d]) => (
             <div key={t} className="flex gap-4 rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">

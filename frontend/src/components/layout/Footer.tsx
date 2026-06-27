@@ -12,10 +12,10 @@ const quickLinks = [
 ];
 
 const socials = [
-  { label: "Facebook", href: "https://facebook.com", path: "M14 9h3l-.4 3H14v9h-3.2v-9H8.5V9h2.3V7.2c0-2.3 1-3.7 3.7-3.7H17v3h-1.6c-1.1 0-1.4.4-1.4 1.3V9Z" },
-  { label: "Instagram", href: "https://instagram.com", path: "M12 8.4A3.6 3.6 0 1 0 12 15.6 3.6 3.6 0 0 0 12 8.4Zm0-2.4c2 0 2.2 0 3 .05a4.6 4.6 0 0 1 4.95 4.95c.05.8.05 1 .05 3s0 2.2-.05 3a4.6 4.6 0 0 1-4.95 4.95c-.8.05-1 .05-3 .05s-2.2 0-3-.05A4.6 4.6 0 0 1 4.05 17c-.05-.8-.05-1-.05-3s0-2.2.05-3A4.6 4.6 0 0 1 9 6.05C9.8 6 10 6 12 6Zm5.4.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Z" },
-  { label: "X / Twitter", href: "https://x.com", path: "M17.7 3H21l-7.1 8.1L22 21h-6.6l-5.1-6.7L4.4 21H1l7.6-8.7L2 3h6.8l4.6 6.1L17.7 3Z" },
-  { label: "WhatsApp", href: "https://wa.me/250791602044", path: "M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1-2.7-.8-4.7-2.8-6-5.2-.5-.9-.8-2-.3-2.8.2-.4.6-.6 1-.6h.6c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.6l-.5.6c-.2.2-.2.4 0 .7.7 1.2 1.8 2.2 3.1 2.8.3.1.5.1.7-.1l.7-.8c.2-.3.4-.3.7-.2l1.8.9c.3.1.4.3.4.6 0 0-.1.3-.2.5Z" },
+  { label: "Facebook", href: "https://facebook.com/Micheal%20Desmond", path: "M14 9h3l-.4 3H14v9h-3.2v-9H8.5V9h2.3V7.2c0-2.3 1-3.7 3.7-3.7H17v3h-1.6c-1.1 0-1.4.4-1.4 1.3V9Z" },
+  { label: "Instagram", href: "https://instagram.com/michealdamon5", path: "M12 8.4A3.6 3.6 0 1 0 12 15.6 3.6 3.6 0 0 0 12 8.4Zm0-2.4c2 0 2.2 0 3 .05a4.6 4.6 0 0 1 4.95 4.95c.05.8.05 1 .05 3s0 2.2-.05 3a4.6 4.6 0 0 1-4.95 4.95c-.8.05-1 .05-3 .05s-2.2 0-3-.05A4.6 4.6 0 0 1 4.05 17c-.05-.8-.05-1-.05-3s0-2.2.05-3A4.6 4.6 0 0 1 9 6.05C9.8 6 10 6 12 6Zm5.4.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Z" },
+  { label: "X / Twitter", href: "https://x.com/themike4nes", path: "M17.7 3H21l-7.1 8.1L22 21h-6.6l-5.1-6.7L4.4 21H1l7.6-8.7L2 3h6.8l4.6 6.1L17.7 3Z" },
+  { label: "WhatsApp", href: "https://wa.me/250784106107", path: "M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1-2.7-.8-4.7-2.8-6-5.2-.5-.9-.8-2-.3-2.8.2-.4.6-.6 1-.6h.6c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.6l-.5.6c-.2.2-.2.4 0 .7.7 1.2 1.8 2.2 3.1 2.8.3.1.5.1.7-.1l.7-.8c.2-.3.4-.3.7-.2l1.8.9c.3.1.4.3.4.6 0 0-.1.3-.2.5Z" },
 ];
 
 export default function Footer() {
@@ -74,9 +74,9 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-slate-900 dark:text-white">Contact</h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-500 dark:text-slate-400">
-              <li className="flex gap-2"><span aria-hidden="true">📍</span> KN 4 Ave, Kigali City Tower, Kigali, Rwanda</li>
-              <li className="flex gap-2"><span aria-hidden="true">📞</span> <a href="tel:+250791602044" className="hover:text-brand-600">+250 791 602 044</a></li>
-              <li className="flex gap-2"><span aria-hidden="true">✉️</span> <a href="mailto:hello@michealphone.rw" className="hover:text-brand-600">hello@michealphone.rw</a></li>
+              <li className="flex gap-2"><span aria-hidden="true">📍</span> KN 4 Ave, Makuza Peace Plaza, Kigali, Rwanda</li>
+              <li className="flex gap-2"><span aria-hidden="true">📞</span> <a href="tel:+250784106107" className="hover:text-brand-600">+250 784 106 107</a></li>
+              <li className="flex gap-2"><span aria-hidden="true">✉️</span> <a href="mailto:michealdamon7@gmail.com" className="hover:text-brand-600">michealdamon7@gmail.com</a></li>
               <li className="flex gap-2"><span aria-hidden="true">🕘</span> Mon – Sat: 8:00 AM – 8:00 PM</li>
             </ul>
           </div>

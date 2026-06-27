@@ -288,7 +288,7 @@ export default function Navbar() {
                 ))}
               </nav>
               <div className="border-t border-slate-200 p-4 text-xs text-slate-500 dark:border-slate-800">
-                📞 +250 788 123 456 · Kigali, Rwanda
+                📞 +250 784 106 107 · Kigali, Rwanda
               </div>
             </motion.aside>
           </>

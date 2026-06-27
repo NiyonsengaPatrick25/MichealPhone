@@ -12,11 +12,17 @@ import { cn } from "../../utils/cn";
 /* ---------------- Hero / Advertisement Carousel ---------------- */
 export function HeroCarousel() {
   const [index, setIndex] = useState(0);
+  const activeHeroAds = heroAds.filter((item) => item.status !== "Inactive");
+
   useEffect(() => {
-    const t = setInterval(() => setIndex((i) => (i + 1) % heroAds.length), 6000);
+    const t = setInterval(() => setIndex((i) => (i + 1) % activeHeroAds.length), 6000);
     return () => clearInterval(t);
-  }, []);
-  const ad = heroAds[index];
+  }, [activeHeroAds.length]);
+
+  const ad = activeHeroAds[index] ?? activeHeroAds[0];
+  if (!ad) return null;
+
+  const ctaLink = ad.link ?? "/products";
 
   return (
     <section aria-label="Promotions" className="mx-auto max-w-7xl px-4 pt-4 sm:pt-6">
@@ -43,7 +49,7 @@ export function HeroCarousel() {
                 {ad.subtitle}
               </motion.p>
               <motion.div initial={{ y: 24, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.4 }} className="mt-7 flex flex-wrap gap-3">
-                <Link to={ad.link} className="rounded-full bg-white px-7 py-3 text-sm font-bold text-slate-900 shadow-xl transition hover:scale-105 active:scale-95">
+                <Link to={ctaLink} className="rounded-full bg-white px-7 py-3 text-sm font-bold text-slate-900 shadow-xl transition hover:scale-105 active:scale-95">
                   {ad.cta}
                 </Link>
                 <Link to="/products" className="rounded-full border border-white/30 px-7 py-3 text-sm font-bold text-white backdrop-blur transition hover:bg-white/10">
@@ -64,7 +70,7 @@ export function HeroCarousel() {
         </AnimatePresence>
 
         <div className="absolute bottom-5 left-1/2 z-10 flex -translate-x-1/2 gap-2">
-          {heroAds.map((a, i) => (
+          {activeHeroAds.map((a, i) => (
             <button
               key={a.id}
               type="button"

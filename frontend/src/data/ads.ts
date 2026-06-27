@@ -4,7 +4,7 @@ export const announcements: string[] = [
   "🔥 Flash Sale — Up to 25% OFF flagship smartphones today only!",
   "🚚 Free delivery in Kigali on orders above RWF 100,000",
   "💳 Pay with MoMo, Card or Cash on Delivery",
-  "📱 Order via WhatsApp — fast & easy: +250 791 602 044 ",
+  "📱 Order via WhatsApp — fast & easy: +250 784 106 107 ",
 ];
 
 export const heroAds: Advertisement[] = [
@@ -37,6 +37,17 @@ export const heroAds: Advertisement[] = [
     image: "/images/laptop-1.jpg",
     gradient: "from-slate-950 via-emerald-950 to-slate-950",
     badge: "Hot Deal",
+  },
+  {
+    id: "ad-4",
+    title: "Dream Phone Payment Plan",
+    subtitle: "Get your dream phone today with 40% down and flexible monthly installments.",
+    cta: "Contact Us",
+    link: "/contact",
+    image: "/images/dream-phone-payment-plan.png",
+    gradient: "from-slate-950 via-blue-950 to-slate-950",
+    badge: "Limited Time Offer",
+    status: "Active",
   },
 ];
 

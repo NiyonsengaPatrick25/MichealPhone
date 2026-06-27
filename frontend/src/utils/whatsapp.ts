@@ -1,7 +1,7 @@
 import type { CartItem, Product } from "../types";
 import { formatRWF } from "./currency";
 
-export const WHATSAPP_NUMBER = "250791602044";
+export const WHATSAPP_NUMBER = "250784106107";
 
 export function buildWhatsAppMessage(product: Product, quantity: number): string {
   return [
