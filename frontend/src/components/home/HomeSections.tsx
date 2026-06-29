@@ -23,7 +23,7 @@ export function HeroCarousel() {
   if (!ad) return null;
 
   const ctaLink = ad.link ?? "/products";
-
+// home section
   return (
     <section aria-label="Promotions" className="mx-auto max-w-7xl px-4 pt-4 sm:pt-6">
       <div className={cn("relative overflow-hidden rounded-3xl bg-gradient-to-br text-white shadow-2xl", ad.gradient)}>
@@ -120,7 +120,7 @@ export function FlashSaleSection() {
             <span className="text-3xl" aria-hidden="true">⚡</span>
             <div>
               <h2 className="text-xl font-extrabold sm:text-2xl">Flash Sale</h2>
-              <p className="text-xs text-white/80">Biggest discounts — today only!</p>
+              <p className="text-xs text-white/80">Biggest discounts — today only!!!</p>
             </div>
           </div>
           <div className="flex items-center gap-1.5" role="timer" aria-label={`Sale ends in ${h} hours ${m} minutes ${s} seconds`}>
